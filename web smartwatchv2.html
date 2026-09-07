@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 1. TITLE TAG (54 Karakter, Kata Kunci Utama di Depan + Brand) -->
+    <title>Beli Smartwatch Fitur Lengkap &amp; Garansi Resmi | MyShop</title>
+    
+    <!-- 2. META DESCRIPTION (153 Karakter, Mengandung Kata Kunci & CTA) -->
+    <meta name="description" content="Beli smartwatch canggih dengan pelacak detak jantung, kalori, dan baterai tahan lama. Dapatkan penawaran harga terbaik &amp; garansi resmi hanya di MyShop!">
+    
+    <!-- 3. CANONICAL URL -->
+    <link rel="canonical" href="https://www.myshop.com/beli-smartwatch">
+    
+    <!-- Bootstrap 5 CSS & Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        :root {
+            --brand-primary: #0d3b4c;
+            --brand-accent: #1a936f;
+            --brand-light: #f4f7f6;
+        }
+
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background-color: var(--brand-light);
+        }
+
+        /* Hero Section Gradient */
+        .hero { 
+            background: linear-gradient(135deg, var(--brand-primary), #1a5268); 
+            color: #fff; 
+            padding: 90px 0; 
+        }
+
+        .card:hover { 
+            transform: translateY(-4px); 
+            box-shadow: 0 10px 20px rgba(0,0,0,.12); 
+            transition: all .25s ease-in-out; 
+        }
+
+        .pricing-card.featured { 
+            border: 2px solid var(--brand-accent); 
+        }
+
+        .carousel-img { 
+            height: 380px; 
+            object-fit: cover; 
+            border-radius: 12px;
+        }
+
+        footer { 
+            background: #092530; 
+            color: #9CA3AF; 
+        }
+
+        .badge-accent {
+            background-color: var(--brand-accent);
+            color: #fff;
+        }
+
+        .btn-accent {
+            background-color: var(--brand-accent);
+            color: #fff;
+            border: none;
+        }
+
+        .btn-accent:hover {
+            background-color: #147255;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. NAVBAR SECTION -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="bi bi-smartwatch me-2 text-info"></i>MyShop
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#fitur">Fitur Utama</a></li>
+                <li class="nav-item"><a class="nav-link" href="#edukasi">Keunggulan</a></li>
+                <li class="nav-item"><a class="nav-link" href="#paket">Paket Harga</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item ms-lg-2">
+                    <a class="btn btn-accent px-3 fw-semibold mt-2 mt-lg-0" href="#" data-bs-toggle="modal" data-bs-target="#modalPesan">
+                        <i class="bi bi-cart-fill me-1"></i> Beli Sekarang
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- 2. HERO SECTION -->
+<section class="hero text-center">
+    <div class="container">
+        <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill fw-semibold">
+            <i class="bi bi-shield-check me-1"></i> Garansi Resmi MyShop &middot; 100% Original
+        </span>
+        
+        <!-- H1 TAG (On-Page SEO) -->
+        <h1 class="display-5 fw-bold mb-3">Beli Smartwatch Fitness Tracker Tahan Lama - MyShop</h1>
+        
+        <p class="lead max-w-2xl mx-auto mb-2 text-light opacity-90">
+            <strong>Fitness Lebih Terkontrol:</strong> Data Nyata, Hasil Nyata.
+        </p>
+        
+        <!-- PARAGRAF PEMBUKA (Kata kunci "beli smartwatch" dalam 100 kata pertama) -->
+        <p class="col-md-8 mx-auto text-light opacity-75 mb-4">
+            Jika Anda sedang berencana untuk <strong>beli smartwatch</strong> berkualitas tinggi guna mendukung gaya hidup sehat dan aktif, MyShop menghadirkan perangkat pintar dengan pelacak detak jantung akurat, pemantau kalori, serta daya tahan baterai ekstra hemat.
+        </p>
+        
+        <div>
+            <button class="btn btn-warning btn-lg me-2 fw-bold text-dark" data-bs-toggle="modal" data-bs-target="#modalPesan">
+                <i class="bi bi-bag-check-fill me-1"></i> Pesan Produk
+            </button>
+            <a href="#fitur" class="btn btn-outline-light btn-lg">Lihat Fitur</a>
+        </div>
+    </div>
+</section>
+
+<!-- 3. ALERT PROMO -->
+<div class="container mt-4">
+    <div class="alert alert-info alert-dismissible fade show d-flex align-items-center shadow-sm" role="alert">
+        <i class="bi bi-lightning-charge-fill fs-4 me-3 text-primary"></i>
+        <div>
+            <strong>Promo Spesial Launching:</strong> Gunakan kode voucher <strong>FITNESS2026</strong> untuk mendapatkan gratis ongkos kirim ke seluruh Indonesia!
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+</div>
+
+<!-- 4. CAROUSEL PRODUK / FITUR UTAMA -->
+<section id="fitur" class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Fitur Unggulan Smartwatch</h2>
+        <p class="text-muted">Teknologi pemantau kesehatan modern dalam genggaman tangan Anda</p>
+    </div>
+
+    <div id="carouselProduk" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <!-- Slide 1: General Product View (Dengan Alt Text SEO) -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=700" 
+                             class="w-100 carousel-img shadow-sm mb-3" 
+                             alt="Smartwatch fitness tracker dengan fitur pelacak detak jantung, pemantau kalori, dan baterai tahan lama">
+                        <h4 class="fw-bold">Desain Ergonomis &amp; Layar HD</h4>
+                        <p class="text-muted">Tampilan data olahraga jernih dan nyaman digunakan beraktivitas harian.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Fitness Tracking -->
+            <div class="carousel-item">
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=700" 
+                             class="w-100 carousel-img shadow-sm mb-3" 
+                             alt="Pelak detak jantung dan pemantau kalori realtime pada smartwatch">
+                        <h4 class="fw-bold">Pelacak Detak Jantung &amp; Kalori</h4>
+                        <p class="text-muted">Pantau ritme jantung 24 jam serta jumlah pembakaran kalori harian secara realtime.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Battery Life -->
+            <div class="carousel-item">
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700" 
+                             class="w-100 carousel-img shadow-sm mb-3" 
+                             alt="Baterai smartwatch tahan lama hingga pemakaian berminggu-minggu">
+                        <h4 class="fw-bold">Baterai Tahan Lama</h4>
+                        <p class="text-muted">Kapasitas daya hemat energi yang bertahan hingga berminggu-minggu dalam sekali isi daya.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduk" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon rounded-circle bg-dark p-3" style="filter:none;"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProduk" data-bs-slide="next">
+            <span class="carousel-control-next-icon rounded-circle bg-dark p-3" style="filter:none;"></span>
+        </button>
+    </div>
+</section>
+
+<!-- 5. KONTEN EDUKASI & SEO TEXT -->
+<section id="edukasi" class="bg-white py-5 border-top border-bottom">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+                <!-- H2 (Variasi Keyword: rekomendasi smartwatch) -->
+                <h2 class="fw-bold mb-3">Rekomendasi Smartwatch Terbaik untuk Gaya Hidup Aktif</h2>
+                <p class="text-secondary">
+                    Dalam daftar <strong>rekomendasi smartwatch</strong> kategori olahraga dan kesehatan tahun 2026, produk dari MyShop ini menjadi pilihan utama bagi pengguna yang menginginkan presisi data dan ketahanan fisik perangkat.
+                </p>
+
+                <!-- H2 (Variasi Keyword: fungsi smartwatch) -->
+                <h2 class="fw-bold h4 mt-4 mb-2">Fungsi Smartwatch Canggih untuk Kesehatan</h2>
+                <p class="text-secondary">
+                    Berbagai <strong>fungsi smartwatch</strong> masa kini telah dikembangkan untuk membantu menjaga kebugaran tubuh Anda:
+                </p>
+                <ul class="list-unstyled text-secondary">
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Pelacak Kualitas Tidur:</strong> Menganalisis tahap tidur nyenyak &amp; gelisah.</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Multi-Sport Mode:</strong> Mode lari, bersepeda, berenang, dan gym.</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Notifikasi Pintar:</strong> Terhubung langsung dengan panggilan &amp; aplikasi HP.</li>
+                </ul>
+
+                <!-- H3 (Variasi Keyword: jam tangan pintar) -->
+                <h3 class="h5 fw-bold mt-4 text-dark">Mengapa Memilih Jam Tangan Pintar dari MyShop?</h3>
+                <p class="text-secondary">
+                    Setiap unit <strong>jam tangan pintar</strong> dijamin 100% original, dilengkapi garansi purna jual resmi, serta pengiriman aman ke seluruh wilayah Indonesia.
+                </p>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <div class="p-4 bg-light rounded-4 shadow-sm">
+                    <i class="bi bi-activity text-accent display-1 text-success mb-3"></i>
+                    <h3 class="fw-bold">Data Nyata, Hasil Nyata</h3>
+                    <p class="text-muted">Kontrol seluruh target kebugaran Anda dengan mudah dan terukur.</p>
+                    <div class="d-flex justify-content-center gap-3 mt-3">
+                        <div class="badge bg-dark p-3"><i class="bi bi-battery-charging me-1"></i> Baterai Awet</div>
+                        <div class="badge bg-danger p-3"><i class="bi bi-heart-pulse me-1"></i> Detak Jantung</div>
+                        <div class="badge bg-warning text-dark p-3"><i class="bi bi-fire me-1"></i> Pemantau Kalori</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CARD PAKET HARGA -->
+<section id="paket" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Pilihan Paket Smartwatch</h2>
+            <p class="text-muted">Pilih paket pembelian yang sesuai dengan kebutuhan Anda</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Paket Starter -->
+            <div class="col-md-5 col-lg-4">
+                <div class="card pricing-card h-100 text-center border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-bold text-muted">Paket Basic</h5>
+                        <h3 class="fw-bold my-3">Rp 350.000</h3>
+                        <ul class="list-unstyled text-muted my-4">
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> 1 Unit Smartwatch Fitness</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> Kabel Charger Magnetic</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> Garansi Resmi 6 Bulan</li>
+                            <li class="text-decoration-line-through text-opacity-50"><i class="bi bi-x text-danger me-1"></i> Bonus Extra Strap</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalPesan">
+                            Pesan Paket Basic
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paket Pro (Featured) -->
+            <div class="col-md-5 col-lg-4">
+                <div class="card pricing-card featured h-100 text-center shadow">
+                    <div class="card-body p-4">
+                        <span class="badge bg-primary mb-2 px-3 py-2">Paling Laris</span>
+                        <h5 class="card-title fw-bold text-primary">Paket Sport Combo</h5>
+                        <h3 class="fw-bold my-3">Rp 499.000</h3>
+                        <ul class="list-unstyled text-muted my-4">
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> 1 Unit Smartwatch Fitness</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> Kabel Charger Magnetic</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> <strong>Garansi Resmi 12 Bulan</strong></li>
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> <strong>Free Extra Strap Silicon</strong></li>
+                            <li class="mb-2"><i class="bi bi-check2 text-success me-1"></i> Anti-Gores Screen Protector</li>
+                        </ul>
+                        <button class="btn btn-primary w-100 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalPesan">
+                            Pesan Paket Combo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- 7. ACCORDION FAQ -->
+<section id="faq" class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">Pertanyaan Umum (FAQ)</h2>
+        <p class="text-muted">Informasi lengkap seputar produk dan pemesanan</p>
+    </div>
+
+    <div class="accordion max-w-2xl mx-auto shadow-sm" id="accordionFAQ">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    Berapa lama daya tahan baterai smartwatch ini?
+                </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body text-secondary">
+                    Dalam penggunaan normal (pemantauan detak jantung &amp; notifikasi aktif), baterai sanggup bertahan hingga 7–14 hari. Dalam mode hemat daya, baterai bisa bertahan hingga 20 hari.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Apakah jam tangan pintar ini tahan air?
+                </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body text-secondary">
+                    Ya, smartwatch ini dilengkapi sertifikasi ketahanan air (Water Resistant) sehingga aman digunakan saat berenang, terkena hujan, maupun saat berkeringat deras.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Apakah mendukung smartphone Android &amp; iOS (iPhone)?
+                </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body text-secondary">
+                    Sangat kompatibel. Anda dapat menghubungkan smartwatch ini ke perangkat Android maupun iOS melalui aplikasi resmi yang dapat diunduh gratis di Play Store dan App Store.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 8. FOOTER -->
+<footer class="text-center py-4">
+    <div class="container">
+        <p class="mb-2">&copy; 2026 MyShop Indonesia — Solusi Gadget &amp; Lifestyle Terpercaya</p>
+        <div class="fs-5 mb-2">
+            <a href="https://instagram.com/myshop" target="_blank" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <small class="text-muted">URL Resmi: https://www.myshop.com/beli-smartwatch</small>
+    </div>
+</footer>
+
+<!-- 9. MODAL FORM PEMESANAN -->
+<div class="modal fade" id="modalPesan" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title fw-bold"><i class="bi bi-bag-check me-2"></i>Formulir Pemesanan Smartwatch</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="formPesan" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="inputNama">Nama Pemesan</label>
+                        <input type="text" class="form-control" id="inputNama" placeholder="Masukkan nama lengkap Anda" required>
+                        <div class="invalid-feedback">Nama pemesan wajib diisi.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="inputKontak">Nomor WhatsApp / Email</label>
+                        <input type="text" class="form-control" id="inputKontak" placeholder="Contoh: 081234567890" required>
+                        <div class="invalid-feedback">Nomor kontak/email wajib diisi untuk konfirmasi.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="inputPaket">Pilih Paket Smartwatch</label>
+                        <select class="form-select" id="inputPaket">
+                            <option value="basic">Paket Basic - Rp 350.000</option>
+                            <option value="combo" selected>Paket Sport Combo - Rp 499.000 (Paling Laris)</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="inputAlamat">Alamat Pengiriman</label>
+                        <textarea class="form-control" id="inputAlamat" rows="2" placeholder="Masukkan alamat lengkap pengiriman" required></textarea>
+                        <div class="invalid-feedback">Alamat pengiriman wajib diisi.</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" id="btnKirimPesan" class="btn btn-primary fw-semibold">
+                    <i class="bi bi-send-fill me-1"></i> Kirim Pesanan
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 10. TOAST KONFIRMASI -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1100;">
+    <div id="toastSukses" class="toast align-items-center text-bg-success border-0 shadow-lg" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                <i class="bi bi-check-circle-fill me-2 fs-5"></i>
+                Pesanan berhasil dikirim! Tim MyShop akan segera menghubungi Anda melalui WhatsApp/Email.
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap 5 Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // JavaScript Form Validation & Interaktivitas Toast
+    const formPesan = document.getElementById('formPesan');
+    const btnKirimPesan = document.getElementById('btnKirimPesan');
+    const toastSukses = new bootstrap.Toast(document.getElementById('toastSukses'));
+    const modalPesanEl = document.getElementById('modalPesan');
+    const modalPesan = bootstrap.Modal.getOrCreateInstance(modalPesanEl);
+
+    btnKirimPesan.addEventListener('click', () => {
+        if (!formPesan.checkValidity()) {
+            formPesan.classList.add('was-validated');
+            return;
+        }
+
+        modalPesan.hide();
+        formPesan.reset();
+        formPesan.classList.remove('was-validated');
+        toastSukses.show();
+    });
+
+    modalPesanEl.addEventListener('show.bs.modal', () => {
+        formPesan.classList.remove('was-validated');
+    });
+</script>
+
+</body>
+</html>

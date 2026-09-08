@@ -21,36 +21,13 @@
         }
 
         
-       /* --- HERO SECTION DENGAN BACKGROUND SMARTWATCH BURAM --- */
-.hero { 
-    position: relative;
-    background: linear-gradient(135deg, rgba(13, 59, 76, 0.88), rgba(26, 82, 104, 0.88)); 
-    color: #fff; 
-    padding: 100px 0; 
-    overflow: hidden;
-}
+       /* Hero Section Gradient */
+        .hero { 
+            background: linear-gradient(135deg, var(--brand-primary), #1a5268); 
+            color: #fff; 
+            padding: 90px 0; 
+        }
 
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=1200');
-    background-size: cover;
-    background-position: center;
-    filter: blur(6px); 
-    opacity: 0.3;      
-    z-index: 0;
-}
-
-/* Memastikan teks & tombol berada di atas gambar latar */
-.hero .container {
-    position: relative;
-    z-index: 1;
-}
 
         .card:hover { 
             transform: translateY(-4px); 
